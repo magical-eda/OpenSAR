@@ -1,0 +1,120 @@
+
+// Library name: 2021_E2E_SAR
+// Cell name: INVD4BWP_tcbn40lpbwp_2020_SAR_CL_FIA
+// View name: schematic
+subckt INVD4BWP_tcbn40lpbwp_2020_SAR_CL_FIA I ZN VDD VSS
+    MU1_0\-M_u2 (ZN I VSS VSS) nch l=40n w=310.0n m=1 nf=1 sd=140.0n \
+        ad=3.41e-14 as=3.41e-14 pd=840.0n ps=840.0n nrd=0.225806 \
+        nrs=0.225806 sa=110.0n sb=110.0n
+    MU1_3\-M_u2 (ZN I VSS VSS) nch l=40n w=310.0n m=1 nf=1 sd=140.0n \
+        ad=3.41e-14 as=3.41e-14 pd=840.0n ps=840.0n nrd=0.225806 \
+        nrs=0.225806 sa=110.0n sb=110.0n
+    MU1_1\-M_u2 (ZN I VSS VSS) nch l=40n w=310.0n m=1 nf=1 sd=140.0n \
+        ad=3.41e-14 as=3.41e-14 pd=840.0n ps=840.0n nrd=0.225806 \
+        nrs=0.225806 sa=110.0n sb=110.0n
+    MU1_2\-M_u2 (ZN I VSS VSS) nch l=40n w=310.0n m=1 nf=1 sd=140.0n \
+        ad=3.41e-14 as=3.41e-14 pd=840.0n ps=840.0n nrd=0.225806 \
+        nrs=0.225806 sa=110.0n sb=110.0n
+    MU1_0\-M_u3 (ZN I VDD VDD) pch l=40n w=410.0n m=1 nf=1 sd=140.0n \
+        ad=4.51e-14 as=4.51e-14 pd=1.04u ps=1.04u nrd=0.170732 \
+        nrs=0.170732 sa=110.0n sb=110.0n
+    MU1_1\-M_u3 (ZN I VDD VDD) pch l=40n w=410.0n m=1 nf=1 sd=140.0n \
+        ad=4.51e-14 as=4.51e-14 pd=1.04u ps=1.04u nrd=0.170732 \
+        nrs=0.170732 sa=110.0n sb=110.0n
+    MU1_3\-M_u3 (ZN I VDD VDD) pch l=40n w=410.0n m=1 nf=1 sd=140.0n \
+        ad=4.51e-14 as=4.51e-14 pd=1.04u ps=1.04u nrd=0.170732 \
+        nrs=0.170732 sa=110.0n sb=110.0n
+    MU1_2\-M_u3 (ZN I VDD VDD) pch l=40n w=410.0n m=1 nf=1 sd=140.0n \
+        ad=4.51e-14 as=4.51e-14 pd=1.04u ps=1.04u nrd=0.170732 \
+        nrs=0.170732 sa=110.0n sb=110.0n
+ends INVD4BWP_tcbn40lpbwp_2020_SAR_CL_FIA
+// End of subcircuit definition.
+
+// Library name: 2021_E2E_SAR
+// Cell name: Comparator_sizing
+// View name: schematic
+subckt Comparator_sizing CLKC vout2p vout2m INM INP VDD VSS
+    M27 (vout1p INM net4 VSS) nch_lvt_mac l=40n w=wb*nb multi=1 nf=nb \
+        sd=140.0n \
+        ad=((nb-int(nb/2)*2)*(1.1e-07+((nb-1)*1.4e-07)/2+0)+(nb+1-int((nb+1)/2)*2)*((nb/2)*1.4e-07))*wb \
+        as=((nb-int(nb/2)*2)*(1.1e-07+((nb-1)*1.4e-07)/2+0)+(nb+1-int((nb+1)/2)*2)*(1.1e-07+1.1e-07+(nb/2-1)*1.4e-07+0+0))*wb \
+        pd=(nb-int(nb/2)*2)*((1.1e-07+((nb-1)*1.4e-07)/2+0)*2+(nb+1)*wb)+(nb+1-int((nb+1)/2)*2)*(((nb/2)*1.4e-07)*2+nb*wb) \
+        ps=(nb-int(nb/2)*2)*((1.1e-07+((nb-1)*1.4e-07)/2+0)*2+(nb+1)*wb)+(nb+1-int((nb+1)/2)*2)*((1.1e-07+1.1e-07+(nb/2-1)*1.4e-07+0+0)*2+(nb+2)*wb)
+    M22 (vout2p vout2m vout1p VSS) nch_lvt_mac l=40n w=wc*nc multi=1 nf=nc \
+        sd=140.0n \
+        ad=((nc-int(nc/2)*2)*(1.1e-07+((nc-1)*1.4e-07)/2+0)+(nc+1-int((nc+1)/2)*2)*((nc/2)*1.4e-07))*wc \
+        as=((nc-int(nc/2)*2)*(1.1e-07+((nc-1)*1.4e-07)/2+0)+(nc+1-int((nc+1)/2)*2)*(1.1e-07+1.1e-07+(nc/2-1)*1.4e-07+0+0))*wc \
+        pd=(nc-int(nc/2)*2)*((1.1e-07+((nc-1)*1.4e-07)/2+0)*2+(nc+1)*wc)+(nc+1-int((nc+1)/2)*2)*(((nc/2)*1.4e-07)*2+nc*wc) \
+        ps=(nc-int(nc/2)*2)*((1.1e-07+((nc-1)*1.4e-07)/2+0)*2+(nc+1)*wc)+(nc+1-int((nc+1)/2)*2)*((1.1e-07+1.1e-07+(nc/2-1)*1.4e-07+0+0)*2+(nc+2)*wc)
+    M23 (vout2m vout2p vout1m VSS) nch_lvt_mac l=40n w=wc*nc multi=1 nf=nc \
+        sd=140.0n \
+        ad=((nc-int(nc/2)*2)*(1.1e-07+((nc-1)*1.4e-07)/2+0)+(nc+1-int((nc+1)/2)*2)*((nc/2)*1.4e-07))*wc \
+        as=((nc-int(nc/2)*2)*(1.1e-07+((nc-1)*1.4e-07)/2+0)+(nc+1-int((nc+1)/2)*2)*(1.1e-07+1.1e-07+(nc/2-1)*1.4e-07+0+0))*wc \
+        pd=(nc-int(nc/2)*2)*((1.1e-07+((nc-1)*1.4e-07)/2+0)*2+(nc+1)*wc)+(nc+1-int((nc+1)/2)*2)*(((nc/2)*1.4e-07)*2+nc*wc) \
+        ps=(nc-int(nc/2)*2)*((1.1e-07+((nc-1)*1.4e-07)/2+0)*2+(nc+1)*wc)+(nc+1-int((nc+1)/2)*2)*((1.1e-07+1.1e-07+(nc/2-1)*1.4e-07+0+0)*2+(nc+2)*wc)
+    M21 (net4 CLKC VSS VSS) nch_lvt_mac l=40n w=wa*na multi=1 nf=na \
+        sd=140.0n \
+        ad=((na-int(na/2)*2)*(1.1e-07+((na-1)*1.4e-07)/2+0)+(na+1-int((na+1)/2)*2)*((na/2)*1.4e-07))*wa \
+        as=((na-int(na/2)*2)*(1.1e-07+((na-1)*1.4e-07)/2+0)+(na+1-int((na+1)/2)*2)*(1.1e-07+1.1e-07+(na/2-1)*1.4e-07+0+0))*wa \
+        pd=(na-int(na/2)*2)*((1.1e-07+((na-1)*1.4e-07)/2+0)*2+(na+1)*wa)+(na+1-int((na+1)/2)*2)*(((na/2)*1.4e-07)*2+na*wa) \
+        ps=(na-int(na/2)*2)*((1.1e-07+((na-1)*1.4e-07)/2+0)*2+(na+1)*wa)+(na+1-int((na+1)/2)*2)*((1.1e-07+1.1e-07+(na/2-1)*1.4e-07+0+0)*2+(na+2)*wa)
+    M26 (vout1m INP net4 VSS) nch_lvt_mac l=40n w=wb*nb multi=1 nf=nb \
+        sd=140.0n \
+        ad=((nb-int(nb/2)*2)*(1.1e-07+((nb-1)*1.4e-07)/2+0)+(nb+1-int((nb+1)/2)*2)*((nb/2)*1.4e-07))*wb \
+        as=((nb-int(nb/2)*2)*(1.1e-07+((nb-1)*1.4e-07)/2+0)+(nb+1-int((nb+1)/2)*2)*(1.1e-07+1.1e-07+(nb/2-1)*1.4e-07+0+0))*wb \
+        pd=(nb-int(nb/2)*2)*((1.1e-07+((nb-1)*1.4e-07)/2+0)*2+(nb+1)*wb)+(nb+1-int((nb+1)/2)*2)*(((nb/2)*1.4e-07)*2+nb*wb) \
+        ps=(nb-int(nb/2)*2)*((1.1e-07+((nb-1)*1.4e-07)/2+0)*2+(nb+1)*wb)+(nb+1-int((nb+1)/2)*2)*((1.1e-07+1.1e-07+(nb/2-1)*1.4e-07+0+0)*2+(nb+2)*wb)
+    C3 (vout2p VSS) capacitor c=e
+    C2 (vout2m VSS) capacitor c=e
+    C1 (vout1p VSS) capacitor c=d
+    C0 (vout1m VSS) capacitor c=d
+    M2 (vout1m CLKC VDD VDD) pch_lvt_mac l=40n w=wf*nf multi=1 nf=nf \
+        sd=140.0n \
+        ad=((nf-int(nf/2)*2)*(1.1e-07+((nf-1)*1.4e-07)/2+0)+(nf+1-int((nf+1)/2)*2)*((nf/2)*1.4e-07))*wf \
+        as=((nf-int(nf/2)*2)*(1.1e-07+((nf-1)*1.4e-07)/2+0)+(nf+1-int((nf+1)/2)*2)*(1.1e-07+1.1e-07+(nf/2-1)*1.4e-07+0+0))*wf \
+        pd=(nf-int(nf/2)*2)*((1.1e-07+((nf-1)*1.4e-07)/2+0)*2+(nf+1)*wf)+(nf+1-int((nf+1)/2)*2)*(((nf/2)*1.4e-07)*2+nf*wf) \
+        ps=(nf-int(nf/2)*2)*((1.1e-07+((nf-1)*1.4e-07)/2+0)*2+(nf+1)*wf)+(nf+1-int((nf+1)/2)*2)*((1.1e-07+1.1e-07+(nf/2-1)*1.4e-07+0+0)*2+(nf+2)*wf)
+    M3 (vout1p CLKC VDD VDD) pch_lvt_mac l=40n w=wf*nf multi=1 nf=nf \
+        sd=140.0n \
+        ad=((nf-int(nf/2)*2)*(1.1e-07+((nf-1)*1.4e-07)/2+0)+(nf+1-int((nf+1)/2)*2)*((nf/2)*1.4e-07))*wf \
+        as=((nf-int(nf/2)*2)*(1.1e-07+((nf-1)*1.4e-07)/2+0)+(nf+1-int((nf+1)/2)*2)*(1.1e-07+1.1e-07+(nf/2-1)*1.4e-07+0+0))*wf \
+        pd=(nf-int(nf/2)*2)*((1.1e-07+((nf-1)*1.4e-07)/2+0)*2+(nf+1)*wf)+(nf+1-int((nf+1)/2)*2)*(((nf/2)*1.4e-07)*2+nf*wf) \
+        ps=(nf-int(nf/2)*2)*((1.1e-07+((nf-1)*1.4e-07)/2+0)*2+(nf+1)*wf)+(nf+1-int((nf+1)/2)*2)*((1.1e-07+1.1e-07+(nf/2-1)*1.4e-07+0+0)*2+(nf+2)*wf)
+    M1 (vout2p CLKC VDD VDD) pch_lvt_mac l=40n w=wg*ng multi=1 nf=ng \
+        sd=140.0n ad=8.4e-14 as=1.32e-13 pd=1.48u ps=2.84u nrd=0.041752 \
+        nrs=0.041752 sa=163.182n sb=163.182n sa1=136.944n sa2=161.471n \
+        sa3=229.143n sa4=159.724n sb1=136.944n sb2=161.471n sb3=229.143n \
+        spa=140.0n spa1=140.0n spa2=140.0n spa3=140.0n sap=147.401n \
+        spba=180.71n sapb=242.494n spba1=182.707n
+    M5 (vout2m vout2p VDD VDD) pch_lvt_mac l=40n w=wc*2*nc multi=1 nf=2*nc \
+        sd=140.0n \
+        ad=((2*nc-int(2*nc/2)*2)*(1.1e-07+((2*nc-1)*1.4e-07)/2+0)+(2*nc+1-int((2*nc+1)/2)*2)*((2*nc/2)*1.4e-07))*wc \
+        as=((2*nc-int(2*nc/2)*2)*(1.1e-07+((2*nc-1)*1.4e-07)/2+0)+(2*nc+1-int((2*nc+1)/2)*2)*(1.1e-07+1.1e-07+(2*nc/2-1)*1.4e-07+0+0))*wc \
+        pd=(2*nc-int(2*nc/2)*2)*((1.1e-07+((2*nc-1)*1.4e-07)/2+0)*2+(2*nc+1)*wc)+(2*nc+1-int((2*nc+1)/2)*2)*(((2*nc/2)*1.4e-07)*2+2*nc*wc) \
+        ps=(2*nc-int(2*nc/2)*2)*((1.1e-07+((2*nc-1)*1.4e-07)/2+0)*2+(2*nc+1)*wc)+(2*nc+1-int((2*nc+1)/2)*2)*((1.1e-07+1.1e-07+(2*nc/2-1)*1.4e-07+0+0)*2+(2*nc+2)*wc)
+    M4 (vout2p vout2m VDD VDD) pch_lvt_mac l=40n w=wc*2*nc multi=1 nf=2*nc \
+        sd=140.0n \
+        ad=((2*nc-int(2*nc/2)*2)*(1.1e-07+((2*nc-1)*1.4e-07)/2+0)+(2*nc+1-int((2*nc+1)/2)*2)*((2*nc/2)*1.4e-07))*wc \
+        as=((2*nc-int(2*nc/2)*2)*(1.1e-07+((2*nc-1)*1.4e-07)/2+0)+(2*nc+1-int((2*nc+1)/2)*2)*(1.1e-07+1.1e-07+(2*nc/2-1)*1.4e-07+0+0))*wc \
+        pd=(2*nc-int(2*nc/2)*2)*((1.1e-07+((2*nc-1)*1.4e-07)/2+0)*2+(2*nc+1)*wc)+(2*nc+1-int((2*nc+1)/2)*2)*(((2*nc/2)*1.4e-07)*2+2*nc*wc) \
+        ps=(2*nc-int(2*nc/2)*2)*((1.1e-07+((2*nc-1)*1.4e-07)/2+0)*2+(2*nc+1)*wc)+(2*nc+1-int((2*nc+1)/2)*2)*((1.1e-07+1.1e-07+(2*nc/2-1)*1.4e-07+0+0)*2+(2*nc+2)*wc)
+    M0 (vout2m CLKC VDD VDD) pch_lvt_mac l=40n w=wg*ng multi=1 nf=ng \
+        sd=140.0n ad=8.4e-14 as=1.32e-13 pd=1.48u ps=2.84u nrd=0.041752 \
+        nrs=0.041752 sa=163.182n sb=163.182n sa1=136.944n sa2=161.471n \
+        sa3=229.143n sa4=159.724n sb1=136.944n sb2=161.471n sb3=229.143n \
+        spa=140.0n spa1=140.0n spa2=140.0n spa3=140.0n sap=147.401n \
+        spba=180.71n sapb=242.494n spba1=182.707n
+ends Comparator_sizing
+// End of subcircuit definition.
+
+// Library name: 2021_E2E_SAR
+// Cell name: COMPARATOR_TB
+// View name: schematic
+V1 (VDD 0) vsource dc=vdd type=dc
+V0 (VSS 0) vsource dc=0 type=dc
+V4 (INM 0) vsource dc=vcm_in-vid/2 type=dc
+V3 (INP 0) vsource dc=vcm_in+vid/2 pacmag=1 type=dc
+V2 (CLKC 0) vsource type=pulse val0=vdd val1=0 period=tper rise=300p \
+        fall=300p
+I9 (CLKC CLKCB VDD 0) INVD4BWP_tcbn40lpbwp_2020_SAR_CL_FIA
+I8 (CLKCB OP ON INM INP VDD VSS) Comparator_sizing

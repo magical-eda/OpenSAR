@@ -1,0 +1,28 @@
+simulator( 'spectre )
+desVar(	  "cload" cap_load	)
+desVar(	  "vdd" vdd_val	)
+of=outfile("./rise_fall.txt")
+temp( 27 )
+sizeList = list( 2 3 4 6 8 12 16 20 24 28 32 40 48 56 64 80 96)
+design(	 "./Delay_TB/spectre/schematic/netlist/netlist")
+resultsDir( "./Delay_TB/spectre" )
+modelFile( 
+    '("/usr/local/packages/tsmc_40/pdk/tsmcN40/../models/spectre/toplevel.scs" "top_tt")
+)
+foreach( (size) sizeList
+    desVar(	  "wn" 300n*size	)
+    desVar(	  "wp" 690n*size	)
+    analysis('tran ?stop "25n"  ?errpreset "conservative"  )
+    envOption(
+	    'analysisOrder  list("tran") 
+    )
+    temp( 27 ) 
+    run()
+    if( cross(VT("/OUT") 11.0/12*VAR("vdd") 1 "rising" nil nil) 
+        then
+        Falling_Time = (cross(VT("/OUT") 1.0/12*VAR("vdd") 1 "falling" nil nil) - cross(VT("/OUT") 11.0/12*VAR("vdd") 1 "falling" nil nil))
+        Rising_Time = (cross(VT("/OUT") 11.0/12*VAR("vdd") 1 "rising" nil nil) - cross(VT("/OUT") 1.0/12*VAR("vdd") 1 "rising" nil nil))
+        fprintf(of "%d %3.3e %3.3e\n" size, Rising_Time, Falling_Time)
+        )
+    )
+close( of )

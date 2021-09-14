@@ -1,0 +1,32 @@
+{
+    "template": "./comp/comp.template",
+    "ocn": "./comp/comp.ocn",
+    "script": "./run.sh" ,
+    "result": "./comp/result.txt",
+    "w_res": 5,
+    "range": [0.05,2.0],
+    "parameters": {
+        "a": { "default": 50.0, "type": "mos", "log": false} ,
+        "b": { "default": 15.0, "type": "mos", "log": false} ,
+        "c": { "default": 100.0, "type": "mos", "log": false} ,
+        "d": { "default": 400, "type": "cap", "log": false} ,
+        "e": { "default": 400, "type": "cap", "log": false} ,
+        "f": { "default": 10.0, "type": "mos", "log": false} ,
+        "g": { "default": 10.0, "type": "mos", "log": false}
+    } ,
+    "overhead":{
+        "input_ref_noise": -0.2,
+        "delay": 0.7
+    },
+    "objective": { "name": "power", "minimize": true} ,
+    "constraints": {
+    "input_ref_noise": "<=",
+    "delay": "<="
+    },
+    "unit":{
+        "power": 1e9,
+        "input_ref_noise": 1e6,
+        "delay": 1e9
+    },
+    "iteration": 200
+}

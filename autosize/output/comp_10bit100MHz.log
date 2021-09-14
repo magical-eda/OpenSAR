@@ -1,0 +1,600 @@
+0.02: a:4.54671 b:12.86456 c:2.81197 d:6.90970 e:4.05108 f:1.52800 g:1.61390 
+31.73: power=1.310e-07 input_ref_noise=3.977e-04 delay=6.147e-11 
+obj: 131.00 input_ref_noise: False delay: True 
+31.83: a:3.36503 b:13.88207 c:1.27942 d:4.95986 e:3.17449 f:1.48268 g:1.26761 
+59.05: power=9.079e-08 input_ref_noise=4.624e-04 delay=5.997e-11 
+obj: 90.79 input_ref_noise: False delay: True 
+59.15: a:4.08563 b:6.58928 c:2.97214 d:7.58382 e:2.84285 f:1.06779 g:1.52479 
+86.76: power=1.170e-07 input_ref_noise=4.483e-04 delay=6.916e-11 
+obj: 117.00 input_ref_noise: False delay: True 
+86.85: a:1.87782 b:14.92364 c:2.19769 d:4.70511 e:6.75413 f:1.06488 g:1.84315 
+115.16: power=1.131e-07 input_ref_noise=3.741e-04 delay=9.257e-11 
+obj: 113.10 input_ref_noise: False delay: False 
+115.28: a:4.15198 b:19.44236 c:1.07904 d:6.00049 e:7.33964 f:0.96274 g:0.80961 
+144.65: power=1.061e-07 input_ref_noise=4.062e-04 delay=6.986e-11 
+obj: 106.10 input_ref_noise: False delay: True 
+144.76: a:3.62791 b:6.88513 c:1.40139 d:2.57086 e:8.70575 f:1.83609 g:0.84489 
+173.31: power=9.127e-08 input_ref_noise=4.860e-04 delay=7.334e-11 
+obj: 91.27 input_ref_noise: False delay: True 
+173.42: a:2.82937 b:10.59477 c:2.99590 d:6.49881 e:6.22565 f:0.53650 g:1.91310 
+202.16: power=1.259e-07 input_ref_noise=3.841e-04 delay=8.097e-11 
+obj: 125.90 input_ref_noise: False delay: True 
+207.77: a:3.39947 b:15.87523 c:1.98837 d:5.84489 e:6.43385 f:0.96109 g:1.60971 
+234.37: power=1.178e-07 input_ref_noise=3.858e-04 delay=7.052e-11 
+obj: 117.80 input_ref_noise: False delay: True 
+239.66: a:3.10653 b:14.44659 c:2.23818 d:3.69616 e:6.57275 f:0.93463 g:1.86482 
+267.43: power=1.125e-07 input_ref_noise=4.011e-04 delay=6.979e-11 
+obj: 112.50 input_ref_noise: False delay: True 
+273.02: a:2.89800 b:15.33579 c:1.33754 d:5.67269 e:7.45165 f:1.07481 g:1.80724 
+300.65: power=1.049e-07 input_ref_noise=3.945e-04 delay=7.899e-11 
+obj: 104.90 input_ref_noise: False delay: True 
+307.27: a:2.97354 b:17.87428 c:2.31132 d:5.31026 e:7.70536 f:1.28899 g:1.78230 
+336.17: power=1.291e-07 input_ref_noise=3.616e-04 delay=7.829e-11 
+obj: 129.10 input_ref_noise: False delay: True 
+341.78: a:2.67926 b:19.48735 c:1.56416 d:5.11302 e:7.42777 f:1.27420 g:1.53652 
+368.93: power=1.158e-07 input_ref_noise=3.723e-04 delay=8.128e-11 
+obj: 115.80 input_ref_noise: False delay: True 
+374.34: a:2.86463 b:17.22585 c:1.81532 d:5.14304 e:8.17592 f:1.06187 g:1.34649 
+402.49: power=1.170e-07 input_ref_noise=3.748e-04 delay=7.945e-11 
+obj: 117.00 input_ref_noise: False delay: True 
+407.34: a:3.15851 b:19.99995 c:1.46954 d:5.70719 e:8.38199 f:0.94185 g:1.81263 
+436.35: power=1.183e-07 input_ref_noise=3.709e-04 delay=7.924e-11 
+obj: 118.30 input_ref_noise: False delay: True 
+441.81: a:2.77883 b:19.60988 c:1.60735 d:4.24341 e:7.26949 f:0.77167 g:1.71577 
+470.05: power=1.117e-07 input_ref_noise=3.826e-04 delay=7.733e-11 
+obj: 111.70 input_ref_noise: False delay: True 
+474.89: a:1.20000 b:18.24198 c:1.29007 d:5.10279 e:8.98243 f:1.02002 g:1.79707 
+504.35: power=1.064e-07 input_ref_noise=3.472e-04 delay=1.317e-10 
+obj: 106.40 input_ref_noise: True delay: False 
+509.67: a:2.82963 b:19.32682 c:1.24683 d:7.01398 e:7.91933 f:0.70373 g:1.38398 
+537.82: power=1.111e-07 input_ref_noise=3.693e-04 delay=8.493e-11 
+obj: 111.10 input_ref_noise: False delay: False 
+543.38: a:3.06715 b:18.94896 c:1.58225 d:7.97384 e:7.63099 f:1.10876 g:1.49031 
+572.39: power=1.225e-07 input_ref_noise=3.576e-04 delay=8.229e-11 
+obj: 122.50 input_ref_noise: False delay: True 
+579.09: a:3.27382 b:19.48660 c:0.80000 d:7.73717 e:9.00000 f:1.20786 g:1.45386 
+608.03: power=1.142e-07 input_ref_noise=3.882e-04 delay=9.027e-11 
+obj: 114.20 input_ref_noise: False delay: False 
+614.00: a:2.64923 b:19.48461 c:1.79281 d:7.52006 e:6.81149 f:0.72025 g:1.52257 
+642.90: power=1.218e-07 input_ref_noise=3.544e-04 delay=8.452e-11 
+obj: 121.80 input_ref_noise: False delay: False 
+648.85: a:2.87789 b:19.16124 c:1.79399 d:7.40197 e:7.26809 f:0.92287 g:1.53864 
+676.30: power=1.243e-07 input_ref_noise=3.555e-04 delay=8.241e-11 
+obj: 124.30 input_ref_noise: False delay: True 
+682.41: a:2.87189 b:19.46045 c:1.54843 d:8.99943 e:6.31233 f:0.74607 g:1.54825 
+710.39: power=1.203e-07 input_ref_noise=3.575e-04 delay=8.345e-11 
+obj: 120.30 input_ref_noise: False delay: False 
+715.89: a:2.90210 b:19.74370 c:1.73121 d:8.64795 e:6.61153 f:0.75985 g:1.20472 
+745.48: power=1.233e-07 input_ref_noise=3.550e-04 delay=8.275e-11 
+obj: 123.30 input_ref_noise: False delay: True 
+751.05: a:3.02361 b:16.98457 c:1.63103 d:8.52672 e:7.03222 f:0.50000 g:1.37637 
+779.99: power=1.154e-07 input_ref_noise=3.659e-04 delay=8.110e-11 
+obj: 115.40 input_ref_noise: False delay: True 
+786.10: a:2.99244 b:19.57074 c:1.78801 d:8.61398 e:7.23493 f:0.51721 g:1.46600 
+815.21: power=1.248e-07 input_ref_noise=3.484e-04 delay=8.280e-11 
+obj: 124.80 input_ref_noise: True delay: True 
+820.86: a:2.45237 b:20.00000 c:3.20000 d:9.00000 e:6.04215 f:0.50000 g:0.50000 
+848.93: power=1.437e-07 input_ref_noise=3.285e-04 delay=9.093e-11 
+obj: 143.70 input_ref_noise: True delay: False 
+854.24: a:1.20000 b:20.00000 c:1.55665 d:8.33919 e:3.82616 f:0.50000 g:1.20888 
+883.39: power=1.068e-07 input_ref_noise=3.619e-04 delay=1.210e-10 
+obj: 106.80 input_ref_noise: False delay: False 
+888.80: a:2.78768 b:16.56932 c:1.70799 d:6.86643 e:8.03651 f:0.50000 g:2.00000 
+916.15: power=1.162e-07 input_ref_noise=3.638e-04 delay=8.393e-11 
+obj: 116.20 input_ref_noise: False delay: False 
+920.91: a:2.43399 b:20.00000 c:1.66348 d:8.69544 e:2.46182 f:0.50000 g:2.00000 
+950.53: power=1.120e-07 input_ref_noise=3.898e-04 delay=7.907e-11 
+obj: 112.00 input_ref_noise: False delay: True 
+956.14: a:3.37189 b:20.00000 c:1.62994 d:7.90776 e:2.96768 f:0.50000 g:0.50000 
+984.01: power=1.071e-07 input_ref_noise=4.059e-04 delay=6.613e-11 
+obj: 107.10 input_ref_noise: False delay: True 
+989.44: a:2.74779 b:20.00000 c:1.64012 d:5.69530 e:8.64031 f:0.50000 g:0.50000 
+1018.74: power=1.140e-07 input_ref_noise=3.641e-04 delay=8.357e-11 
+obj: 114.00 input_ref_noise: False delay: False 
+1026.25: a:3.09405 b:19.53239 c:1.34848 d:8.99734 e:7.84526 f:0.50000 g:0.50000 
+1062.31: power=1.143e-07 input_ref_noise=3.615e-04 delay=8.386e-11 
+obj: 114.30 input_ref_noise: False delay: False 
+1069.47: a:3.07019 b:17.86981 c:1.68467 d:7.98828 e:8.64459 f:0.50000 g:0.50000 
+1100.80: power=1.174e-07 input_ref_noise=3.565e-04 delay=8.303e-11 
+obj: 117.40 input_ref_noise: False delay: True 
+1108.27: a:2.63746 b:19.99978 c:3.20000 d:2.25034 e:9.00000 f:1.64911 g:0.50000 
+1135.13: power=1.420e-07 input_ref_noise=3.560e-04 delay=8.104e-11 
+obj: 142.00 input_ref_noise: False delay: True 
+1142.13: a:2.54623 b:18.48609 c:1.42249 d:8.93106 e:5.80154 f:1.91808 g:2.00000 
+1171.49: power=1.236e-07 input_ref_noise=3.588e-04 delay=8.860e-11 
+obj: 123.60 input_ref_noise: False delay: False 
+1176.04: a:3.11070 b:18.99272 c:1.75217 d:8.21909 e:8.29079 f:0.50000 g:0.56012 
+1204.47: power=1.213e-07 input_ref_noise=3.516e-04 delay=8.242e-11 
+obj: 121.30 input_ref_noise: False delay: True 
+1209.59: a:2.74930 b:20.00000 c:1.46964 d:7.36994 e:6.07299 f:2.00000 g:0.50000 
+1238.29: power=1.199e-07 input_ref_noise=3.682e-04 delay=8.224e-11 
+obj: 119.90 input_ref_noise: False delay: True 
+1243.77: a:4.61964 b:15.92834 c:1.29365 d:9.00000 e:9.00000 f:0.50000 g:2.00000 
+1273.35: power=1.177e-07 input_ref_noise=3.764e-04 delay=7.462e-11 
+obj: 117.70 input_ref_noise: False delay: True 
+1281.52: a:2.40119 b:20.00000 c:2.12193 d:4.74177 e:5.16059 f:2.00000 g:2.00000 
+1310.58: power=1.255e-07 input_ref_noise=3.677e-04 delay=8.094e-11 
+obj: 125.50 input_ref_noise: False delay: True 
+1317.79: a:3.11021 b:19.53400 c:1.74080 d:8.37203 e:8.22591 f:0.50000 g:0.61020 
+1346.85: power=1.223e-07 input_ref_noise=3.509e-04 delay=8.261e-11 
+obj: 122.30 input_ref_noise: True delay: True 
+1351.73: a:2.78122 b:18.60875 c:1.75289 d:7.98896 e:7.42062 f:0.50000 g:0.50000 
+1381.91: power=1.173e-07 input_ref_noise=3.564e-04 delay=8.421e-11 
+obj: 117.30 input_ref_noise: False delay: False 
+1387.44: a:2.21181 b:20.00000 c:2.30419 d:4.02333 e:5.90696 f:0.50000 g:0.50000 
+1416.41: power=1.130e-07 input_ref_noise=3.754e-04 delay=8.138e-11 
+obj: 113.00 input_ref_noise: False delay: True 
+1421.95: a:2.23977 b:17.60023 c:2.29442 d:3.32866 e:9.00000 f:0.50000 g:0.50000 
+1452.28: power=1.142e-07 input_ref_noise=3.733e-04 delay=8.639e-11 
+obj: 114.20 input_ref_noise: False delay: False 
+1458.04: a:4.80000 b:20.00000 c:2.88982 d:2.25000 e:2.25000 f:0.50000 g:0.50000 
+1486.98: power=1.174e-07 input_ref_noise=4.359e-04 delay=4.871e-11 
+obj: 117.40 input_ref_noise: False delay: True 
+1493.33: a:2.11040 b:20.00000 c:2.57330 d:4.24027 e:7.51977 f:0.50000 g:2.00000 
+1522.73: power=1.277e-07 input_ref_noise=3.492e-04 delay=9.030e-11 
+obj: 127.70 input_ref_noise: True delay: False 
+1527.64: a:4.80000 b:12.01337 c:1.77621 d:9.00000 e:9.00000 f:0.50000 g:0.50000 
+1557.53: power=1.167e-07 input_ref_noise=3.819e-04 delay=7.259e-11 
+obj: 116.70 input_ref_noise: False delay: True 
+1563.42: a:3.53764 b:13.57894 c:1.70640 d:9.00000 e:9.00000 f:0.50000 g:1.98024 
+1593.58: power=1.202e-07 input_ref_noise=3.643e-04 delay=8.210e-11 
+obj: 120.20 input_ref_noise: False delay: True 
+1599.74: a:1.88772 b:20.00000 c:2.12780 d:2.25000 e:2.25000 f:2.00000 g:0.50000 
+1629.16: power=1.062e-07 input_ref_noise=4.196e-04 delay=7.499e-11 
+obj: 106.20 input_ref_noise: False delay: True 
+1634.74: a:2.86995 b:20.00000 c:1.45362 d:8.06181 e:7.04062 f:0.50000 g:2.00000 
+1663.81: power=1.177e-07 input_ref_noise=3.573e-04 delay=8.409e-11 
+obj: 117.70 input_ref_noise: False delay: False 
+1670.76: a:2.18210 b:19.43967 c:1.81978 d:2.30051 e:7.36404 f:1.99974 g:0.50000 
+1698.96: power=1.143e-07 input_ref_noise=3.876e-04 delay=8.281e-11 
+obj: 114.30 input_ref_noise: False delay: True 
+1704.72: a:4.79007 b:18.52203 c:1.35555 d:8.99799 e:9.00000 f:0.50000 g:0.50000 
+1733.21: power=1.192e-07 input_ref_noise=3.696e-04 delay=7.236e-11 
+obj: 119.20 input_ref_noise: False delay: True 
+1738.92: a:2.52601 b:15.91727 c:2.37446 d:6.53792 e:6.37725 f:0.50000 g:0.50000 
+1767.96: power=1.157e-07 input_ref_noise=3.704e-04 delay=8.168e-11 
+obj: 115.70 input_ref_noise: False delay: True 
+1774.52: a:3.14441 b:15.74345 c:1.65272 d:8.99841 e:8.01302 f:1.02427 g:0.50060 
+1804.70: power=1.180e-07 input_ref_noise=3.632e-04 delay=8.296e-11 
+obj: 118.00 input_ref_noise: False delay: True 
+1810.92: a:1.20000 b:13.73103 c:3.20000 d:2.27449 e:2.25000 f:0.50000 g:1.28139 
+1840.66: power=1.054e-07 input_ref_noise=4.236e-04 delay=9.285e-11 
+obj: 105.40 input_ref_noise: False delay: False 
+1845.27: a:1.41547 b:14.90822 c:2.83304 d:9.00000 e:3.12505 f:2.00000 g:0.50000 
+1875.57: power=1.316e-07 input_ref_noise=3.555e-04 delay=1.127e-10 
+obj: 131.60 input_ref_noise: False delay: False 
+1878.83: a:2.74732 b:18.48420 c:1.97698 d:6.66647 e:8.22955 f:0.50000 g:0.50000 
+1908.48: power=1.203e-07 input_ref_noise=3.556e-04 delay=8.379e-11 
+obj: 120.30 input_ref_noise: False delay: False 
+1913.48: a:2.02064 b:7.04577 c:3.11953 d:2.25000 e:9.00000 f:0.50000 g:1.29163 
+1942.41: power=1.120e-07 input_ref_noise=4.287e-04 delay=9.747e-11 
+obj: 112.00 input_ref_noise: False delay: False 
+1945.80: a:3.09972 b:17.36603 c:1.64474 d:9.00000 e:8.17179 f:0.50000 g:0.50000 
+1974.72: power=1.175e-07 input_ref_noise=3.579e-04 delay=8.347e-11 
+obj: 117.50 input_ref_noise: False delay: False 
+1980.87: a:2.52029 b:5.40116 c:1.32020 d:9.00000 e:9.00000 f:2.00000 g:2.00000 
+2008.76: power=1.067e-07 input_ref_noise=4.053e-04 delay=1.146e-10 
+obj: 106.70 input_ref_noise: False delay: False 
+2012.65: a:2.56284 b:16.56050 c:2.20441 d:9.00000 e:4.12816 f:0.50000 g:0.50000 
+2042.13: power=1.148e-07 input_ref_noise=3.722e-04 delay=8.082e-11 
+obj: 114.80 input_ref_noise: False delay: True 
+2044.42: a:3.96068 b:15.57703 c:1.57732 d:9.00000 e:9.00000 f:2.00000 g:0.50000 
+2072.28: power=1.285e-07 input_ref_noise=3.617e-04 delay=7.873e-11 
+obj: 128.50 input_ref_noise: False delay: True 
+2073.67: a:2.15086 b:20.00000 c:1.86305 d:9.00000 e:3.03265 f:1.33455 g:0.50000 
+2101.79: power=1.192e-07 input_ref_noise=3.721e-04 delay=8.717e-11 
+obj: 119.20 input_ref_noise: False delay: False 
+2103.92: a:3.14708 b:19.04908 c:1.56163 d:8.04437 e:9.00000 f:0.70571 g:0.50000 
+2132.73: power=1.200e-07 input_ref_noise=3.562e-04 delay=8.394e-11 
+obj: 120.00 input_ref_noise: False delay: False 
+2138.42: a:2.10283 b:17.92956 c:2.64631 d:6.51578 e:2.25000 f:0.50000 g:1.84200 
+2167.77: power=1.185e-07 input_ref_noise=3.833e-04 delay=8.049e-11 
+obj: 118.50 input_ref_noise: False delay: True 
+2172.73: a:3.06422 b:18.23567 c:1.78133 d:8.09928 e:8.61025 f:0.50000 g:0.50000 
+2200.78: power=1.208e-07 input_ref_noise=3.519e-04 delay=8.331e-11 
+obj: 120.80 input_ref_noise: False delay: True 
+2204.34: a:3.98812 b:12.10587 c:1.46071 d:9.00000 e:9.00000 f:2.00000 g:2.00000 
+2231.40: power=1.249e-07 input_ref_noise=3.711e-04 delay=8.177e-11 
+obj: 124.90 input_ref_noise: False delay: True 
+2234.25: a:2.56146 b:14.42836 c:1.60389 d:9.00000 e:5.77141 f:1.51427 g:1.25872 
+2262.37: power=1.148e-07 input_ref_noise=3.729e-04 delay=8.620e-11 
+obj: 114.80 input_ref_noise: False delay: False 
+2263.21: a:4.60111 b:11.94026 c:1.45827 d:7.97641 e:5.83408 f:1.95479 g:1.66433 
+2289.89: power=1.137e-07 input_ref_noise=4.094e-04 delay=6.644e-11 
+obj: 113.70 input_ref_noise: False delay: True 
+2290.67: a:4.48820 b:8.44260 c:2.41686 d:7.73871 e:5.57730 f:0.87527 g:0.78238 
+2319.24: power=1.128e-07 input_ref_noise=4.178e-04 delay=6.848e-11 
+obj: 112.80 input_ref_noise: False delay: True 
+2320.09: a:3.58895 b:8.09784 c:1.87754 d:8.93699 e:3.23218 f:1.18469 g:1.55674 
+2345.29: power=1.036e-07 input_ref_noise=4.378e-04 delay=7.055e-11 
+obj: 103.60 input_ref_noise: False delay: True 
+2346.20: a:2.37133 b:12.87978 c:2.07000 d:2.70884 e:2.46104 f:0.50766 g:1.58605 
+2375.37: power=8.750e-08 input_ref_noise=4.701e-04 delay=6.252e-11 
+obj: 87.50 input_ref_noise: False delay: True 
+2377.54: a:2.16212 b:20.00000 c:2.75077 d:6.89207 e:2.25000 f:0.50000 g:0.50000 
+2406.64: power=1.215e-07 input_ref_noise=3.746e-04 delay=8.104e-11 
+obj: 121.50 input_ref_noise: False delay: True 
+2407.66: a:1.74027 b:16.55508 c:2.95876 d:4.56281 e:2.41256 f:0.79567 g:0.53217 
+2436.73: power=1.159e-07 input_ref_noise=3.944e-04 delay=8.418e-11 
+obj: 115.90 input_ref_noise: False delay: False 
+2437.66: a:2.96588 b:7.64087 c:2.97255 d:5.35674 e:4.35603 f:0.51870 g:1.18618 
+2464.13: power=1.101e-07 input_ref_noise=4.415e-04 delay=7.351e-11 
+obj: 110.10 input_ref_noise: False delay: True 
+2468.13: a:4.80000 b:12.76110 c:3.20000 d:2.25000 e:9.00000 f:0.50000 g:0.50000 
+2497.13: power=1.259e-07 input_ref_noise=4.139e-04 delay=6.136e-11 
+obj: 125.90 input_ref_noise: False delay: True 
+2498.23: a:4.69386 b:8.46554 c:2.82443 d:3.39998 e:7.95308 f:1.76471 g:1.48536 
+2525.96: power=1.267e-07 input_ref_noise=4.317e-04 delay=6.697e-11 
+obj: 126.70 input_ref_noise: False delay: True 
+2527.14: a:4.70894 b:10.93365 c:1.83637 d:4.48588 e:6.58532 f:0.88442 g:1.88214 
+2556.44: power=1.060e-07 input_ref_noise=4.375e-04 delay=6.055e-11 
+obj: 106.00 input_ref_noise: False delay: True 
+2557.54: a:4.17955 b:12.08240 c:1.59847 d:3.06796 e:4.33330 f:0.56176 g:0.54113 
+2586.34: power=8.465e-08 input_ref_noise=4.861e-04 delay=5.281e-11 
+obj: 84.65 input_ref_noise: False delay: True 
+2587.42: a:4.23412 b:19.35563 c:1.94137 d:4.11412 e:5.34494 f:1.91313 g:1.97676 
+2614.86: power=1.255e-07 input_ref_noise=3.973e-04 delay=6.084e-11 
+obj: 125.50 input_ref_noise: False delay: True 
+2615.74: a:3.79389 b:6.32388 c:1.63284 d:5.52524 e:3.35471 f:1.64137 g:1.65598 
+2643.75: power=9.065e-08 input_ref_noise=4.946e-04 delay=6.348e-11 
+obj: 90.65 input_ref_noise: False delay: True 
+2644.66: a:1.29073 b:10.26467 c:1.55439 d:5.88362 e:6.85566 f:1.07621 g:1.75289 
+2674.94: power=9.565e-08 input_ref_noise=3.895e-04 delay=1.157e-10 
+obj: 95.65 input_ref_noise: False delay: False 
+2675.91: a:4.15483 b:15.27201 c:2.10266 d:2.30422 e:8.36826 f:0.57380 g:1.94572 
+2704.27: power=1.113e-07 input_ref_noise=4.206e-04 delay=6.253e-11 
+obj: 111.30 input_ref_noise: False delay: True 
+2706.80: a:4.36474 b:5.00000 c:2.95120 d:9.00000 e:9.00000 f:0.50000 g:0.50000 
+2735.29: power=1.262e-07 input_ref_noise=4.066e-04 delay=9.641e-11 
+obj: 126.20 input_ref_noise: False delay: False 
+2736.29: a:3.55899 b:18.26427 c:2.38515 d:2.95319 e:8.12682 f:1.44077 g:0.81113 
+2764.88: power=1.253e-07 input_ref_noise=3.835e-04 delay=6.832e-11 
+obj: 125.30 input_ref_noise: False delay: True 
+2765.84: a:4.31166 b:17.11928 c:1.77485 d:3.51324 e:4.99797 f:1.66790 g:1.43051 
+2793.92: power=1.118e-07 input_ref_noise=4.245e-04 delay=5.733e-11 
+obj: 111.80 input_ref_noise: False delay: True 
+2794.86: a:1.80326 b:14.46706 c:2.34489 d:6.51839 e:6.57076 f:1.35179 g:1.46886 
+2823.71: power=1.208e-07 input_ref_noise=3.565e-04 delay=9.995e-11 
+obj: 120.80 input_ref_noise: False delay: False 
+2824.66: a:2.51042 b:11.80918 c:1.76266 d:7.54949 e:3.91697 f:0.57341 g:0.87962 
+2854.05: power=9.686e-08 input_ref_noise=4.168e-04 delay=7.622e-11 
+obj: 96.86 input_ref_noise: False delay: True 
+2854.95: a:2.43609 b:15.81707 c:1.97233 d:6.73971 e:4.06225 f:1.48590 g:1.04713 
+2881.75: power=1.137e-07 input_ref_noise=3.886e-04 delay=7.811e-11 
+obj: 113.70 input_ref_noise: False delay: True 
+2882.78: a:4.58720 b:8.11149 c:1.11093 d:3.90220 e:5.17980 f:1.68487 g:1.16795 
+2910.07: power=8.289e-08 input_ref_noise=5.111e-04 delay=5.858e-11 
+obj: 82.89 input_ref_noise: False delay: True 
+2911.08: a:2.22330 b:14.74319 c:1.22630 d:5.44835 e:2.88376 f:1.88698 g:1.06876 
+2938.41: power=9.221e-08 input_ref_noise=4.395e-04 delay=7.361e-11 
+obj: 92.21 input_ref_noise: False delay: True 
+2939.38: a:3.70116 b:13.87719 c:3.03619 d:6.84309 e:4.79268 f:0.96380 g:1.99149 
+2967.87: power=1.320e-07 input_ref_noise=3.798e-04 delay=6.842e-11 
+obj: 132.00 input_ref_noise: False delay: True 
+2968.85: a:2.30245 b:16.74480 c:2.89497 d:4.50686 e:3.17205 f:0.86296 g:1.23835 
+2997.47: power=1.205e-07 input_ref_noise=3.908e-04 delay=7.508e-11 
+obj: 120.50 input_ref_noise: False delay: True 
+2998.46: a:2.32033 b:19.53435 c:1.78177 d:7.78465 e:3.83115 f:1.14976 g:1.41757 
+3026.95: power=1.169e-07 input_ref_noise=3.758e-04 delay=8.276e-11 
+obj: 116.90 input_ref_noise: False delay: True 
+3027.98: a:1.61181 b:19.17061 c:3.18240 d:5.91927 e:5.87147 f:0.83616 g:1.63891 
+3056.55: power=1.377e-07 input_ref_noise=3.341e-04 delay=1.064e-10 
+obj: 137.70 input_ref_noise: True delay: False 
+3057.52: a:3.73791 b:6.56819 c:2.94009 d:3.64291 e:8.47695 f:1.81105 g:0.61694 
+3085.80: power=1.239e-07 input_ref_noise=4.352e-04 delay=7.947e-11 
+obj: 123.90 input_ref_noise: False delay: True 
+3086.88: a:2.00226 b:17.13150 c:1.87211 d:8.14754 e:7.75568 f:1.75607 g:1.28085 
+3115.50: power=1.282e-07 input_ref_noise=3.399e-04 delay=1.027e-10 
+obj: 128.20 input_ref_noise: True delay: False 
+3116.57: a:4.48210 b:17.84767 c:2.60642 d:4.95222 e:4.17795 f:0.65361 g:1.40989 
+3146.37: power=1.229e-07 input_ref_noise=3.997e-04 delay=5.722e-11 
+obj: 122.90 input_ref_noise: False delay: True 
+3147.40: a:4.01950 b:17.72929 c:0.86998 d:5.34576 e:8.97214 f:1.18530 g:0.76566 
+3175.78: power=1.049e-07 input_ref_noise=4.265e-04 delay=7.672e-11 
+obj: 104.90 input_ref_noise: False delay: True 
+3176.77: a:2.42944 b:18.22116 c:2.17922 d:2.54047 e:3.96028 f:1.36728 g:1.41941 
+3204.52: power=1.084e-07 input_ref_noise=4.115e-04 delay=6.973e-11 
+obj: 108.40 input_ref_noise: False delay: True 
+3205.56: a:1.99889 b:17.36021 c:1.77003 d:6.61281 e:3.68221 f:0.98608 g:0.52947 
+3234.34: power=1.051e-07 input_ref_noise=3.918e-04 delay=8.421e-11 
+obj: 105.10 input_ref_noise: False delay: False 
+3235.38: a:2.36303 b:10.06294 c:2.06429 d:4.68979 e:6.49537 f:1.09139 g:1.70239 
+3264.39: power=1.023e-07 input_ref_noise=4.140e-04 delay=8.182e-11 
+obj: 102.30 input_ref_noise: False delay: True 
+3265.49: a:1.43195 b:10.93605 c:1.56658 d:8.07826 e:5.60834 f:0.71266 g:1.68848 
+3293.69: power=9.809e-08 input_ref_noise=3.812e-04 delay=1.116e-10 
+obj: 98.09 input_ref_noise: False delay: False 
+3294.73: a:2.31744 b:6.75305 c:1.04252 d:3.81481 e:7.03062 f:1.50574 g:1.91851 
+3323.15: power=7.990e-08 input_ref_noise=4.795e-04 delay=8.540e-11 
+obj: 79.90 input_ref_noise: False delay: False 
+3324.23: a:1.55581 b:16.74812 c:0.90860 d:8.27614 e:5.04333 f:0.97912 g:1.80741 
+3353.80: power=9.950e-08 input_ref_noise=3.824e-04 delay=1.094e-10 
+obj: 99.50 input_ref_noise: False delay: False 
+3354.86: a:3.77076 b:18.54429 c:2.70867 d:5.81654 e:2.34288 f:1.82131 g:0.62907 
+3383.94: power=1.290e-07 input_ref_noise=3.963e-04 delay=6.086e-11 
+obj: 129.00 input_ref_noise: False delay: True 
+3385.02: a:3.41713 b:18.39908 c:2.91072 d:4.95872 e:7.42279 f:0.65367 g:1.60829 
+3415.03: power=1.373e-07 input_ref_noise=3.600e-04 delay=7.224e-11 
+obj: 137.30 input_ref_noise: False delay: True 
+3416.13: a:3.17225 b:12.46237 c:0.91552 d:5.50752 e:7.83977 f:0.68555 g:1.30584 
+3445.76: power=9.075e-08 input_ref_noise=4.361e-04 delay=7.876e-11 
+obj: 90.75 input_ref_noise: False delay: True 
+3446.86: a:3.64307 b:11.99764 c:1.97682 d:5.75323 e:5.21926 f:1.94357 g:1.71115 
+3475.58: power=1.157e-07 input_ref_noise=4.136e-04 delay=6.662e-11 
+obj: 115.70 input_ref_noise: False delay: True 
+3476.71: a:3.61170 b:17.57118 c:1.47180 d:2.63597 e:5.42382 f:0.55244 g:0.79434 
+3506.67: power=9.277e-08 input_ref_noise=4.464e-04 delay=5.955e-11 
+obj: 92.77 input_ref_noise: False delay: True 
+3507.86: a:3.94528 b:9.10482 c:3.15845 d:2.43269 e:4.88413 f:1.15291 g:0.74003 
+3535.73: power=1.128e-07 input_ref_noise=4.656e-04 delay=5.994e-11 
+obj: 112.80 input_ref_noise: False delay: True 
+3536.84: a:2.07315 b:19.55376 c:2.80364 d:3.69844 e:3.77146 f:1.31859 g:0.78096 
+3567.06: power=1.235e-07 input_ref_noise=3.809e-04 delay=7.981e-11 
+obj: 123.50 input_ref_noise: False delay: True 
+3568.20: a:1.25549 b:6.62978 c:1.09466 d:3.20012 e:6.01638 f:1.78154 g:1.82926 
+3596.68: power=7.579e-08 input_ref_noise=4.732e-04 delay=1.038e-10 
+obj: 75.79 input_ref_noise: False delay: False 
+3597.79: a:1.21952 b:6.81581 c:2.54982 d:4.75000 e:2.82314 f:1.77676 g:0.64877 
+3625.61: power=9.750e-08 input_ref_noise=4.506e-04 delay=1.011e-10 
+obj: 97.50 input_ref_noise: False delay: False 
+3626.73: a:1.53682 b:8.47965 c:2.46215 d:6.27247 e:7.42400 f:1.22901 g:0.78002 
+3655.17: power=1.108e-07 input_ref_noise=3.836e-04 delay=1.126e-10 
+obj: 110.80 input_ref_noise: False delay: False 
+3656.24: a:3.77251 b:11.85924 c:1.24090 d:4.64549 e:5.16347 f:1.38371 g:0.95655 
+3683.63: power=8.961e-08 input_ref_noise=4.607e-04 delay=6.169e-11 
+obj: 89.61 input_ref_noise: False delay: True 
+3684.75: a:3.85956 b:9.30401 c:1.03405 d:5.70021 e:5.31527 f:1.12474 g:1.10399 
+3711.92: power=8.194e-08 input_ref_noise=4.770e-04 delay=6.530e-11 
+obj: 81.94 input_ref_noise: False delay: True 
+3713.13: a:3.06224 b:11.43024 c:3.15091 d:8.97549 e:4.82729 f:1.32572 g:1.91537 
+3741.99: power=1.361e-07 input_ref_noise=3.713e-04 delay=8.068e-11 
+obj: 136.10 input_ref_noise: False delay: True 
+3743.14: a:2.62739 b:11.73771 c:2.88412 d:6.22560 e:5.00392 f:1.94480 g:1.97918 
+3771.36: power=1.315e-07 input_ref_noise=3.846e-04 delay=8.041e-11 
+obj: 131.50 input_ref_noise: False delay: True 
+3772.51: a:4.76212 b:16.32673 c:2.81960 d:2.38862 e:8.17225 f:1.81690 g:1.17274 
+3800.87: power=1.371e-07 input_ref_noise=3.939e-04 delay=6.065e-11 
+obj: 137.10 input_ref_noise: False delay: True 
+3802.06: a:2.12282 b:14.13649 c:1.92924 d:4.02488 e:5.33319 f:1.67398 g:1.64055 
+3830.94: power=1.083e-07 input_ref_noise=4.009e-04 delay=8.064e-11 
+obj: 108.30 input_ref_noise: False delay: True 
+3832.11: a:1.25749 b:10.54193 c:2.36892 d:3.81275 e:3.36653 f:0.91634 g:0.71435 
+3862.92: power=9.318e-08 input_ref_noise=4.309e-04 delay=9.464e-11 
+obj: 93.18 input_ref_noise: False delay: False 
+3864.27: a:4.65717 b:11.62489 c:1.38936 d:5.76503 e:4.18790 f:1.65434 g:0.91520 
+3891.42: power=9.673e-08 input_ref_noise=4.578e-04 delay=5.690e-11 
+obj: 96.73 input_ref_noise: False delay: True 
+3892.64: a:3.74840 b:16.32989 c:2.49416 d:7.72010 e:7.60862 f:0.77822 g:0.79128 
+3922.47: power=1.313e-07 input_ref_noise=3.578e-04 delay=7.372e-11 
+obj: 131.30 input_ref_noise: False delay: True 
+3923.68: a:1.81714 b:10.83665 c:3.07986 d:2.34507 e:2.46573 f:1.37861 g:1.37833 
+3952.64: power=1.071e-07 input_ref_noise=4.491e-04 delay=7.529e-11 
+obj: 107.10 input_ref_noise: False delay: True 
+3953.86: a:2.26529 b:11.82857 c:2.00413 d:6.37862 e:7.26874 f:0.85133 g:1.77912 
+3982.94: power=1.090e-07 input_ref_noise=3.838e-04 delay=8.932e-11 
+obj: 109.00 input_ref_noise: False delay: False 
+3984.19: a:1.54360 b:12.72872 c:2.65146 d:4.59236 e:4.72003 f:0.50369 g:0.54519 
+4014.31: power=1.053e-07 input_ref_noise=3.964e-04 delay=9.388e-11 
+obj: 105.30 input_ref_noise: False delay: False 
+4015.55: a:4.32328 b:12.44280 c:2.09879 d:4.04741 e:4.47769 f:1.29155 g:1.33376 
+4044.77: power=1.048e-07 input_ref_noise=4.429e-04 delay=5.644e-11 
+obj: 104.80 input_ref_noise: False delay: True 
+4046.03: a:1.29098 b:18.66036 c:2.29358 d:7.68934 e:8.48179 f:1.89526 g:0.63205 
+4076.01: power=1.348e-07 input_ref_noise=3.180e-04 delay=1.343e-10 
+obj: 134.80 input_ref_noise: True delay: False 
+4077.25: a:2.84060 b:5.49225 c:2.82388 d:5.69116 e:5.18364 f:1.30003 g:0.68578 
+4107.36: power=1.100e-07 input_ref_noise=4.510e-04 delay=8.444e-11 
+obj: 110.00 input_ref_noise: False delay: False 
+4108.64: a:2.04434 b:9.64838 c:3.05874 d:6.54367 e:5.26383 f:0.85571 g:1.69656 
+4138.06: power=1.201e-07 input_ref_noise=3.892e-04 delay=9.243e-11 
+obj: 120.10 input_ref_noise: False delay: False 
+4139.35: a:4.02837 b:7.61926 c:1.13032 d:3.56753 e:8.88018 f:1.40007 g:0.56695 
+4168.15: power=8.547e-08 input_ref_noise=4.858e-04 delay=7.263e-11 
+obj: 85.47 input_ref_noise: False delay: True 
+4169.47: a:1.88351 b:6.25389 c:2.81079 d:8.12431 e:3.15176 f:1.95032 g:0.87188 
+4197.22: power=1.155e-07 input_ref_noise=4.220e-04 delay=9.894e-11 
+obj: 115.50 input_ref_noise: False delay: False 
+4198.52: a:1.39332 b:12.54118 c:2.79612 d:8.01281 e:4.81558 f:0.64159 g:1.94194 
+4227.14: power=1.225e-07 input_ref_noise=3.576e-04 delay=1.147e-10 
+obj: 122.50 input_ref_noise: False delay: False 
+4228.38: a:2.10309 b:14.32463 c:1.28947 d:2.31461 e:6.96935 f:0.50230 g:1.83863 
+4257.52: power=8.616e-08 input_ref_noise=4.371e-04 delay=7.977e-11 
+obj: 86.16 input_ref_noise: False delay: True 
+4258.80: a:2.59399 b:11.54101 c:1.60731 d:4.91790 e:5.89867 f:1.65525 g:1.78664 
+4286.97: power=1.020e-07 input_ref_noise=4.214e-04 delay=7.644e-11 
+obj: 102.00 input_ref_noise: False delay: True 
+4288.28: a:3.17356 b:8.48376 c:2.69870 d:8.80438 e:5.60179 f:1.16176 g:1.30519 
+4315.96: power=1.227e-07 input_ref_noise=3.934e-04 delay=8.241e-11 
+obj: 122.70 input_ref_noise: False delay: True 
+4317.24: a:3.87032 b:17.71870 c:1.48488 d:7.53509 e:8.62208 f:1.62570 g:1.78984 
+4346.32: power=1.265e-07 input_ref_noise=3.654e-04 delay=7.667e-11 
+obj: 126.50 input_ref_noise: False delay: True 
+4347.58: a:3.90591 b:17.48031 c:0.80117 d:6.10404 e:3.37302 f:1.00759 g:0.70875 
+4376.74: power=8.895e-08 input_ref_noise=4.684e-04 delay=6.097e-11 
+obj: 88.95 input_ref_noise: False delay: True 
+4378.09: a:1.77278 b:10.14239 c:1.90273 d:7.56467 e:4.52251 f:0.55046 g:0.88176 
+4407.07: power=9.675e-08 input_ref_noise=4.039e-04 delay=9.381e-11 
+obj: 96.75 input_ref_noise: False delay: False 
+4408.41: a:1.93275 b:13.02770 c:2.30464 d:3.78559 e:6.30548 f:0.92117 g:1.37729 
+4438.45: power=1.070e-07 input_ref_noise=3.966e-04 delay=8.640e-11 
+obj: 107.00 input_ref_noise: False delay: False 
+4440.85: a:3.04277 b:19.40002 c:1.63412 d:8.41208 e:7.74585 f:0.50000 g:1.51980 
+4470.26: power=1.214e-07 input_ref_noise=3.525e-04 delay=8.296e-11 
+obj: 121.40 input_ref_noise: False delay: True 
+4471.61: a:3.73818 b:17.85970 c:2.69393 d:8.74871 e:5.32628 f:1.21659 g:0.57564 
+4498.36: power=1.374e-07 input_ref_noise=3.571e-04 delay=7.117e-11 
+obj: 137.40 input_ref_noise: False delay: True 
+4499.87: a:2.57384 b:5.50901 c:1.01623 d:7.13044 e:7.93832 f:0.54975 g:1.21056 
+4526.95: power=7.927e-08 input_ref_noise=4.510e-04 delay=9.867e-11 
+obj: 79.27 input_ref_noise: False delay: False 
+4528.62: a:4.21622 b:9.55222 c:3.04742 d:2.29741 e:8.02455 f:1.21954 g:1.59724 
+4555.58: power=1.227e-07 input_ref_noise=4.347e-04 delay=6.578e-11 
+obj: 122.70 input_ref_noise: False delay: True 
+4557.05: a:2.04602 b:11.17004 c:1.65575 d:3.44817 e:6.66382 f:1.58226 g:1.62601 
+4586.80: power=9.775e-08 input_ref_noise=4.262e-04 delay=8.340e-11 
+obj: 97.75 input_ref_noise: False delay: False 
+4588.16: a:4.15616 b:18.83502 c:2.63683 d:3.98176 e:5.94147 f:1.13457 g:1.88679 
+4616.96: power=1.314e-07 input_ref_noise=3.824e-04 delay=6.206e-11 
+obj: 131.40 input_ref_noise: False delay: True 
+4618.36: a:4.23115 b:5.40715 c:1.38073 d:4.04127 e:6.65309 f:1.20490 g:1.35742 
+4647.26: power=8.417e-08 input_ref_noise=5.087e-04 delay=6.982e-11 
+obj: 84.17 input_ref_noise: False delay: True 
+4648.67: a:1.97358 b:17.18126 c:1.22959 d:5.19754 e:4.73350 f:0.72973 g:1.53916 
+4677.30: power=9.302e-08 input_ref_noise=4.082e-04 delay=8.437e-11 
+obj: 93.02 input_ref_noise: False delay: False 
+4678.76: a:4.59269 b:14.44261 c:3.19309 d:5.32869 e:6.12342 f:1.03195 g:1.01915 
+4708.80: power=1.341e-07 input_ref_noise=3.849e-04 delay=6.224e-11 
+obj: 134.10 input_ref_noise: False delay: True 
+4710.20: a:3.31424 b:6.19933 c:1.48159 d:4.04004 e:2.38835 f:0.50312 g:1.23133 
+4739.97: power=6.941e-08 input_ref_noise=5.530e-04 delay=5.632e-11 
+obj: 69.41 input_ref_noise: False delay: True 
+4741.49: a:2.93103 b:18.93122 c:1.87822 d:4.85139 e:4.86315 f:0.71836 g:1.10768 
+4770.06: power=1.102e-07 input_ref_noise=3.950e-04 delay=6.982e-11 
+obj: 110.20 input_ref_noise: False delay: True 
+4771.48: a:3.59051 b:9.36295 c:3.07729 d:4.74848 e:8.15742 f:0.86050 g:1.05662 
+4800.96: power=1.240e-07 input_ref_noise=4.031e-04 delay=7.547e-11 
+obj: 124.00 input_ref_noise: False delay: True 
+4802.49: a:4.18992 b:18.28247 c:2.60142 d:7.99201 e:8.74472 f:0.72384 g:1.32304 
+4832.09: power=1.425e-07 input_ref_noise=3.432e-04 delay=7.324e-11 
+obj: 142.50 input_ref_noise: True delay: True 
+4833.65: a:2.93338 b:13.43388 c:1.38072 d:7.20755 e:7.64729 f:1.97551 g:1.16688 
+4862.29: power=1.121e-07 input_ref_noise=3.852e-04 delay=8.319e-11 
+obj: 112.10 input_ref_noise: False delay: True 
+4863.85: a:2.58317 b:17.78125 c:2.11692 d:8.40096 e:4.88971 f:1.81691 g:1.28088 
+4900.53: power=1.275e-07 input_ref_noise=3.596e-04 delay=8.335e-11 
+obj: 127.50 input_ref_noise: False delay: False 
+4908.63: a:1.60708 b:7.34601 c:2.15119 d:5.95332 e:3.12016 f:0.70364 g:1.53506 
+4951.55: power=8.942e-08 input_ref_noise=4.485e-04 delay=9.016e-11 
+obj: 89.42 input_ref_noise: False delay: False 
+4960.49: a:3.88772 b:7.67104 c:2.16731 d:4.07637 e:6.24685 f:1.48928 g:0.83057 
+4998.13: power=1.016e-07 input_ref_noise=4.599e-04 delay=6.647e-11 
+obj: 101.60 input_ref_noise: False delay: True 
+4999.71: a:4.71442 b:16.49623 c:1.09468 d:2.73967 e:7.73716 f:1.38486 g:1.16279 
+5028.60: power=9.858e-08 input_ref_noise=4.545e-04 delay=6.227e-11 
+obj: 98.58 input_ref_noise: False delay: True 
+5030.76: a:3.81408 b:15.83898 c:1.06845 d:3.23440 e:8.58575 f:1.92839 g:1.30843 
+5059.66: power=1.034e-07 input_ref_noise=4.376e-04 delay=7.115e-11 
+obj: 103.40 input_ref_noise: False delay: True 
+5061.21: a:3.48293 b:14.81600 c:2.31101 d:2.41492 e:6.57912 f:1.02580 g:1.77568 
+5088.48: power=1.118e-07 input_ref_noise=4.197e-04 delay=6.377e-11 
+obj: 111.80 input_ref_noise: False delay: True 
+5090.19: a:1.33896 b:19.15938 c:2.49937 d:4.50940 e:4.01575 f:1.05513 g:1.93701 
+5119.18: power=1.188e-07 input_ref_noise=3.634e-04 delay=1.047e-10 
+obj: 118.80 input_ref_noise: False delay: False 
+5120.79: a:1.27137 b:14.33326 c:1.37103 d:6.81758 e:7.36919 f:1.92405 g:0.74614 
+5150.65: power=1.058e-07 input_ref_noise=3.602e-04 delay=1.241e-10 
+obj: 105.80 input_ref_noise: False delay: False 
+5152.61: a:3.72718 b:15.03896 c:2.11431 d:6.02093 e:3.19335 f:1.49983 g:1.63664 
+5180.57: power=1.132e-07 input_ref_noise=4.131e-04 delay=6.134e-11 
+obj: 113.20 input_ref_noise: False delay: True 
+5182.13: a:4.14925 b:19.74396 c:1.05964 d:8.54038 e:2.49079 f:1.72838 g:1.68779 
+5209.21: power=1.098e-07 input_ref_noise=4.326e-04 delay=6.204e-11 
+obj: 109.80 input_ref_noise: False delay: True 
+5210.89: a:4.36635 b:10.76052 c:0.82610 d:5.43496 e:5.40675 f:0.98267 g:1.59627 
+5239.50: power=8.518e-08 input_ref_noise=4.857e-04 delay=6.373e-11 
+obj: 85.18 input_ref_noise: False delay: True 
+5241.08: a:2.30268 b:5.31623 c:2.21599 d:5.17706 e:5.42095 f:1.34490 g:0.73183 
+5270.01: power=9.473e-08 input_ref_noise=4.633e-04 delay=8.842e-11 
+obj: 94.73 input_ref_noise: False delay: False 
+5271.88: a:4.47188 b:13.45920 c:2.08685 d:8.71043 e:4.58921 f:1.77969 g:1.76839 
+5300.48: power=1.246e-07 input_ref_noise=3.902e-04 delay=6.514e-11 
+obj: 124.60 input_ref_noise: False delay: True 
+5302.10: a:4.04056 b:5.95175 c:2.94236 d:8.16636 e:5.84482 f:1.39269 g:1.93814 
+5329.98: power=1.285e-07 input_ref_noise=4.193e-04 delay=8.254e-11 
+obj: 128.50 input_ref_noise: False delay: True 
+5331.73: a:4.45075 b:19.59101 c:1.58292 d:3.34984 e:5.95665 f:1.03830 g:1.08271 
+5358.40: power=1.078e-07 input_ref_noise=4.205e-04 delay=5.836e-11 
+obj: 107.80 input_ref_noise: False delay: True 
+5360.34: a:4.77792 b:18.94499 c:2.25153 d:8.66315 e:3.31359 f:0.76651 g:1.67053 
+5390.02: power=1.276e-07 input_ref_noise=3.832e-04 delay=5.996e-11 
+obj: 127.60 input_ref_noise: False delay: True 
+5391.66: a:1.37938 b:5.39912 c:2.86604 d:6.36763 e:4.19999 f:0.92255 g:1.82621 
+5419.45: power=1.078e-07 input_ref_noise=4.309e-04 delay=1.148e-10 
+obj: 107.80 input_ref_noise: False delay: False 
+5421.15: a:4.17783 b:5.51563 c:3.18442 d:4.70673 e:8.57854 f:1.02075 g:1.30192 
+5450.47: power=1.238e-07 input_ref_noise=4.350e-04 delay=8.423e-11 
+obj: 123.80 input_ref_noise: False delay: False 
+5452.17: a:1.51865 b:19.34217 c:1.71447 d:4.51151 e:3.89272 f:0.82161 g:1.52729 
+5481.98: power=1.028e-07 input_ref_noise=3.879e-04 delay=9.388e-11 
+obj: 102.80 input_ref_noise: False delay: False 
+5483.84: a:2.22294 b:9.71622 c:1.89783 d:8.38845 e:7.60366 f:1.75310 g:1.15198 
+5512.20: power=1.162e-07 input_ref_noise=3.759e-04 delay=9.889e-11 
+obj: 116.20 input_ref_noise: False delay: False 
+5514.01: a:2.94191 b:13.26399 c:2.27105 d:2.57255 e:5.30916 f:0.99186 g:1.45402 
+5552.55: power=1.039e-07 input_ref_noise=4.349e-04 delay=6.522e-11 
+obj: 103.90 input_ref_noise: False delay: True 
+5563.01: a:3.37414 b:9.00051 c:1.55134 d:7.98530 e:8.00934 f:1.23604 g:1.53474 
+5601.86: power=1.072e-07 input_ref_noise=4.013e-04 delay=8.298e-11 
+obj: 107.20 input_ref_noise: False delay: True 
+5613.74: a:1.73996 b:5.29489 c:0.88012 d:6.97785 e:7.28025 f:1.87714 g:1.54549 
+5651.57: power=8.614e-08 input_ref_noise=4.422e-04 delay=1.167e-10 
+obj: 86.14 input_ref_noise: False delay: False 
+5653.38: a:2.45456 b:9.01246 c:0.91568 d:6.72248 e:3.24036 f:1.36696 g:1.89964 
+5680.72: power=8.164e-08 input_ref_noise=4.738e-04 delay=7.452e-11 
+obj: 81.64 input_ref_noise: False delay: True 
+5682.65: a:1.88809 b:12.34337 c:0.82345 d:7.36984 e:8.08564 f:0.69522 g:0.77360 
+5712.58: power=9.004e-08 input_ref_noise=3.998e-04 delay=1.066e-10 
+obj: 90.04 input_ref_noise: False delay: False 
+5714.24: a:4.62078 b:5.66588 c:1.85152 d:5.95958 e:4.11094 f:1.83166 g:1.54244 
+5743.37: power=1.000e-07 input_ref_noise=4.851e-04 delay=6.530e-11 
+obj: 100.00 input_ref_noise: False delay: True 
+5745.20: a:1.44692 b:10.71376 c:2.00414 d:6.05560 e:6.87662 f:0.77913 g:1.59887 
+5772.39: power=1.024e-07 input_ref_noise=3.797e-04 delay=1.098e-10 
+obj: 102.40 input_ref_noise: False delay: False 
+5774.45: a:3.45947 b:14.48541 c:2.59649 d:4.05217 e:7.80082 f:1.47759 g:1.79464 
+5800.79: power=1.288e-07 input_ref_noise=3.833e-04 delay=7.120e-11 
+obj: 128.80 input_ref_noise: False delay: True 
+5802.68: a:4.59446 b:13.30802 c:2.66871 d:7.85112 e:7.41235 f:1.33264 g:0.62147 
+5830.38: power=1.346e-07 input_ref_noise=3.729e-04 delay=6.856e-11 
+obj: 134.60 input_ref_noise: False delay: True 
+5832.24: a:4.39297 b:6.51461 c:0.97962 d:6.96814 e:5.37820 f:1.75541 g:0.96428 
+5860.51: power=8.848e-08 input_ref_noise=4.809e-04 delay=7.067e-11 
+obj: 88.48 input_ref_noise: False delay: True 
+5862.25: a:4.49065 b:6.88221 c:2.30606 d:3.63933 e:8.29832 f:0.75512 g:1.03824 
+5889.43: power=1.044e-07 input_ref_noise=4.578e-04 delay=6.971e-11 
+obj: 104.40 input_ref_noise: False delay: True 
+5891.23: a:3.55236 b:8.90513 c:2.90038 d:5.36913 e:8.72001 f:0.54560 g:1.27144 
+5919.76: power=1.235e-07 input_ref_noise=3.990e-04 delay=7.850e-11 
+obj: 123.50 input_ref_noise: False delay: True 
+5921.66: a:4.54598 b:7.64967 c:2.02254 d:6.22693 e:4.11983 f:1.58912 g:0.82533 
+5948.66: power=1.006e-07 input_ref_noise=4.630e-04 delay=6.163e-11 
+obj: 100.60 input_ref_noise: False delay: True 
+5950.53: a:2.93020 b:8.94912 c:1.37494 d:7.23550 e:6.49363 f:1.91426 g:0.76132 
+5977.66: power=9.956e-08 input_ref_noise=4.217e-04 delay=8.153e-11 
+obj: 99.56 input_ref_noise: False delay: True 
+5979.60: a:1.61552 b:6.01707 c:3.11807 d:3.88399 e:7.04195 f:1.51738 g:1.33352 
+6008.28: power=1.159e-07 input_ref_noise=4.226e-04 delay=1.106e-10 
+obj: 115.90 input_ref_noise: False delay: False 
+6010.16: a:2.62243 b:6.23921 c:3.01172 d:8.14166 e:7.69761 f:1.46635 g:1.30429 
+6038.93: power=1.278e-07 input_ref_noise=3.908e-04 delay=1.027e-10 
+obj: 127.80 input_ref_noise: False delay: False 
+6040.77: a:4.37479 b:9.33165 c:1.77627 d:2.59483 e:6.84765 f:0.61871 g:1.86159 
+6070.40: power=9.450e-08 input_ref_noise=4.787e-04 delay=5.921e-11 
+obj: 94.50 input_ref_noise: False delay: True 
+6072.26: a:2.76366 b:7.66013 c:1.83556 d:8.40240 e:4.46834 f:1.68239 g:1.98472 
+6101.51: power=1.070e-07 input_ref_noise=4.231e-04 delay=8.274e-11 
+obj: 107.00 input_ref_noise: False delay: True 
+6103.32: a:2.34611 b:14.42590 c:1.46369 d:3.46076 e:4.83413 f:1.21112 g:1.37597 
+6132.02: power=9.201e-08 input_ref_noise=4.336e-04 delay=7.224e-11 
+obj: 92.01 input_ref_noise: False delay: True 
+6133.79: a:3.33936 b:6.37911 c:1.60157 d:2.53158 e:4.92350 f:0.94466 g:1.24397 
+6163.29: power=7.886e-08 input_ref_noise=5.269e-04 delay=6.191e-11 
+obj: 78.86 input_ref_noise: False delay: True 
+6165.15: a:1.44365 b:18.89147 c:1.03182 d:2.78759 e:4.82871 f:1.28630 g:0.89953 
+6193.20: power=8.596e-08 input_ref_noise=4.208e-04 delay=9.419e-11 
+obj: 85.96 input_ref_noise: False delay: False 
+6195.24: a:1.80929 b:6.81396 c:1.80584 d:2.36198 e:3.51333 f:1.05313 g:1.90592 
+6223.35: power=7.939e-08 input_ref_noise=5.124e-04 delay=7.344e-11 
+obj: 79.39 input_ref_noise: False delay: True 
+6225.43: a:2.65898 b:7.72203 c:1.53498 d:3.88106 e:2.77830 f:1.48997 g:1.12926 
+6255.07: power=7.973e-08 input_ref_noise=5.118e-04 delay=6.234e-11 
+obj: 79.73 input_ref_noise: False delay: True 
+6256.99: a:2.15363 b:19.83611 c:1.39484 d:7.57624 e:4.57390 f:1.82608 g:0.61088 
+6285.98: power=1.125e-07 input_ref_noise=3.763e-04 delay=8.822e-11 
+obj: 112.50 input_ref_noise: False delay: False 
+6287.89: a:3.40326 b:13.40344 c:2.04221 d:3.35042 e:5.22310 f:0.99696 g:1.68169 
+6315.66: power=1.025e-07 input_ref_noise=4.346e-04 delay=6.235e-11 
+obj: 102.50 input_ref_noise: False delay: True 
+6317.65: a:2.99681 b:12.38011 c:1.52650 d:6.61490 e:3.90611 f:0.80188 g:1.23359 
+6347.80: power=9.452e-08 input_ref_noise=4.293e-04 delay=6.850e-11 
+obj: 94.52 input_ref_noise: False delay: True 

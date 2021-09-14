@@ -1,0 +1,15 @@
+{
+    "dff": "dff",
+    "dffq": "dffq",
+    "inv": "in",
+    "buff": "buff",
+    "delay": "delay25",
+    "delay2": "delay250",
+    "delay_large": "delay500",
+    "tieh": "tieh",
+    "nand2": "nand2",
+    "nor2": "nor2",
+    "and2": "and2",
+    "or2": "or2",
+    "dffs": "dffs"
+}

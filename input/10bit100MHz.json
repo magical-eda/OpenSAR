@@ -1,0 +1,55 @@
+{
+    "bit": 10,
+    "column_bit": 4,
+    "redundant_cycle": 1,
+    "cycle": 13,
+    "rate": 100e6,
+    "vdd": 1.2,
+    "cap_config": "./sys_opt/output/capconfig_10bit.json",
+    "resultDir" : "./result/10_100/" , 
+    "lef" : "/home/unga/jayliu/projects/develop/magical/magical/execution/tsmc40/inputs/tcbn40lpbwp_10lm7X2ZRDL.lef",
+    "techfile" : "/home/unga/jayliu/projects/develop/magical/magical/execution/tsmc40/inputs/techfile",
+    "pinfile" : "./input/10bit100MHz.pin",
+    "custom_cells" : ["comp","bootstrap"],
+    "resize": {"bootstrap":0.8},
+    "comp": 
+    {
+        "jsonFile": "./components/comp_10_100.json" ,
+        "int_pins": ["CLKC", "DB", "D"]
+    },
+    "bootstrap": 
+    {
+        "jsonFile": "./components/bootstrap_10_100.json" ,
+        "int_pins": []
+    },
+    "sar_logic":
+    {
+        "def": "./sar_logic/custom/10bit/backend/PNR_SIGNOFF/RESULTS/sar_logic.route_tapeout.def",
+        "gds": "./sar_logic/custom/10bit/backend/PNR_SIGNOFF/RESULTS/sar_logic.route_tapeout.gds",
+        "offset": [0.1, 0.135]
+    },
+    "cap_switch":
+    {
+        "config": "./sys_opt/output/capconfig_10bit.json",
+        "cap": 
+        {
+            "w":        0.07,
+            "sp":       0.07,
+            "nf":       6,
+            "l":        0.6,
+            "m_bot":    3,
+            "m_top":    5
+        },
+        "switch":
+        {
+            "w":        0.3,
+            "l":        0.04,
+            "nf":       1,
+            "attr":     ["lvt"],
+            "array_w":  [1,1,1,1,1,1,1,1,1,1],
+            "array_nf": "./buffer_size/output/switch_10bit100MHz.json"
+        }
+    },
+    "sensitive_nets": ["INN", "INP", "VINP", "VINN", "CLKS", "CLKC", "OUTP", "OUTN"] ,
+    "outports": ["result[0]","result[1]","result[2]","result[3]","result[4]","result[5]","result[6]","result[7]","result[8]","result[9]","result[10]", "reset_n","clock", "clock_output"]
+}

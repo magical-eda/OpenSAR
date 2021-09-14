@@ -1,0 +1,3 @@
+simulator lang=spectre
+include "nch_lvt_mac.scs"
+include "pch_lvt_mac.scs"

@@ -1,0 +1,16 @@
+{
+    "INN": [["bootstrap_r", "VOUT"], ["cap_switch_r", "vin"], ["comp", "INM"]] ,
+    "INP": [["bootstrap_l", "VOUT"], ["cap_switch_l", "vin"], ["comp", "INP"]] ,
+    "OUTP": [["comp", "D"], ["sar_logic", "cmp_p"]] ,
+    "OUTN": [["comp", "DB"], ["sar_logic", "cmp_n"]] , 
+    "CLKS": [["bootstrap_r", "CLKS"], ["bootstrap_l", "CLKS"], ["sar_logic", "clk_sample"], ["cap_switch_r", "clks"]] , 
+    "CLKC": [["sar_logic", "clkc"], ["comp", "CLKC"]] ,
+    "CTL_REFPR": [["sar_logic", "switch_refp_r"], ["cap_switch_r", "cmn"]] ,
+    "CTL_REFNR": [["sar_logic", "switch_refn_r"], ["cap_switch_r", "cmp"]] ,
+    "CTL_REFPL": [["sar_logic", "switch_refp_l"], ["cap_switch_l", "cmn"]] ,
+    "CTL_REFNL": [["sar_logic", "switch_refn_l"], ["cap_switch_l", "cmp"]] ,
+    "CTL_P": [["sar_logic", "switch_p"], ["cap_switch_r", "refn"]] ,
+    "CTL_N": [["sar_logic", "switch_n"], ["cap_switch_l", "refn"]] ,
+    "CTL_PB": [["sar_logic", "switch_bp"], ["cap_switch_l", "refp"]] ,
+    "CTL_NB": [["sar_logic", "switch_bn"], ["cap_switch_r", "refp"]] 
+}

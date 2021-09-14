@@ -1,0 +1,7 @@
+{
+    "spectre_netlist" : "bootstrap_12_1.sp",
+    "resultDir" : "./components/bootstrap_12_1/",
+    "techfile" : "/home/unga/jayliu/projects/develop/magical/magical/execution/tsmc40/inputs/techfile",
+    "simple_tech_file" : "/home/unga/jayliu/projects/develop/magical/MAGICAL/examples/mockPDK/techfile.simple",
+    "lef" : "/home/unga/jayliu/projects/develop/magical/magical/execution/tsmc40/inputs/tcbn40lpbwp_10lm7X2ZRDL.lef"
+}

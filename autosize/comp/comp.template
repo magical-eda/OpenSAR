@@ -1,0 +1,53 @@
+simulator( 'spectre )
+design(	 "./OpenSAR/autosize/comp/COMPARATOR_TB/spectre/schematic/netlist/netlist")
+resultsDir( "./OpenSAR/autosize/comp//COMPARATOR_TB/spectre/schematic" )
+modelFile( 
+    '("/usr/local/packages/tsmc_40/pdk/tsmcN40/../models/spectre/toplevel.scs" "top_tt")
+)
+analysis('pnoise ?start "1"  ?stop "1/(2*VAR(\"tper\"))"  ?pnoisemethod "fullspectrum"  
+		?p "/OP"  ?n "/ON"  ?oprobe ""  ?noisetype "pmjitter"  
+		?noisetypeUI ""  ?noisetypeUI1 "jitter"  ?crossingdirection "rise"  ?thresholdvalue "VAR(\"v_threshold\")"  
+		?jitterTypeUI1 "PM"  ?jitterTypeUI "PM"  )
+analysis('pac ?maxsamples "1"  ?crossingdirection "rise"  ?thresholdvalue "VAR(\"v_threshold\")"  
+		?sample_n "/ON"  ?sample_p "/OP"  ?ptvtype "sampled"  ?outType "Voltage"  
+		?special "Sampled"  ?start "1"  ?stop "1k"  )
+analysis('pss ?fund "1/VAR(\"tper\")"  ?harms "100"  ?errpreset "conservative"  )
+desVar(	  "na" na	)
+desVar(	  "nb" nb	)
+desVar(	  "nc" nc	)
+desVar(	  "nf" nf	)
+desVar(	  "ng" ng	)
+desVar(	  "wa" wa	)
+desVar(	  "wb" wb	)
+desVar(	  "wc" wc	)
+desVar(	  "wf" wf	)
+desVar(	  "wg" wg	)
+desVar(	  "e" e	)
+desVar(	  "d" d	)
+desVar(	  "vdd" vdd	)
+desVar(	  "v_threshold" vdd/2	)
+desVar(	  "vcm_in" vdd/2	)
+desVar(	  "vid" 0.5m	)
+desVar(	  "tper" 1u	)
+envOption(
+	'enableNoiseRefactor  nil 
+	'analysisOrder  list("pss" "pnoise" "pac") 
+)
+option( ?categ 'turboOpts
+	'uniMode  "APS" 
+)
+save( 'i "/I8/VDD" )
+temp( 27 ) 
+run()
+fclk = (1 / VAR("tper"))
+tot_noise = ymax(ymax(pow(iinteg(pow(clip(getData("out" ?result "pnoise_pmjitter") 1 (fclk / 2)) 2)) 0.5)))
+gain = (ymax(ymax(ymax(mag(v("/OP" ?result "pac_sampled"))))) + ymax(ymax(ymax(mag(v("/ON" ?result "pac_sampled"))))))
+input_ref_noise = (tot_noise / gain)
+Threshold_Crossing = _drplJitterThresholdXing(?event 0 ?result "pnoise_pmjitter")
+cross_time = value(cross(Threshold_Crossing VAR("v_threshold") 1 "rising" nil nil nil))
+Delay_1m = (cross(vtime('pss "/ON") VAR("v_threshold") 1 "falling" nil nil nil) - cross(vtime('pss "/CLKCB") VAR("v_threshold") 1 "rising" nil nil nil))
+Power = (average(itime('pss "/I8/VDD")) * VAR("vdd") )
+of=outfile("/home/local/eda10/jayliu/projects/develop/OpenSAR/autosize/comp/result.txt")
+fprintf(of "power=%3.3e\n" Power)
+fprintf(of "input_ref_noise=%3.3e\n" input_ref_noise)
+fprintf(of "delay=%3.3e\n" Delay_1m)

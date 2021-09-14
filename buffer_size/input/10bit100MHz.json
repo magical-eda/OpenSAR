@@ -1,0 +1,13 @@
+{
+    "capsize": "1.2f",
+    "routecap": "0.055f",
+    "routelen": 140,
+    "sys_spec": "./../input/10bit100MHz.json", 
+    "prefix_delay": 1.2e-10,
+    "overhead": 0.9,
+    "cap_config": "./../sys_opt/output/capconfig_10bit.json",
+    "min_bit": [3, 6],
+    "oversize": 1.2,
+    "mode": "Optimisitic"
+}
+

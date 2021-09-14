@@ -1,0 +1,12 @@
+{
+    "sys": "./../../../input/12bit1MHz.json",
+    "all_ports": ["clock", "reset_n", "cmp_p", "cmp_n", "clk_sample", "clkc", "result", "switch_p", "switch_n", "switch_bp", "switch_bn", "switch_refp_l", "switch_refp_r", "switch_refn_l", "switch_refn_r", "clock_output"],
+    "clk_ports": ["clock_output", "clk_sample", "clkc"],
+    "in_ports": ["clock", "reset_n", "cmp_p", "cmp_n"],
+    "result_port": "result",
+    "buffer_size": {
+        "clkc": 6,
+        "clk_sample": 6,
+        "switch": "../../../buffer_size/output/buffer_12bit1MHz.json"
+    }
+}
